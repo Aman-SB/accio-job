@@ -46,8 +46,6 @@
     height: 30px;
     color: #fff;
     font-family: ABeeZee;
-    color: #fff;
-    font-family: ABeeZee;
     font-size: 17px;
     font-style: italic;
     font-weight: 500;
@@ -105,8 +103,14 @@
     height: fit-content;
     width: 320px;
     box-shadow: 10px 10px 8px #888888;
-    padding: 15px;
     border-radius: 10px;
+  }
+  .blurry-background {
+    background: linear-gradient(to bottom, rgba(216, 191, 255, 0.5), rgba(255, 224, 178, 0.5)); 
+    backdrop-filter: blur(5px); 
+    color: white; 
+    padding: 20px; 
+    
   }
   input {
     border: none;
@@ -189,7 +193,7 @@
     line-height: 150%;
     letter-spacing: -0.54px;
   }
-  .Begineer {
+  .begineer {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 30px;
